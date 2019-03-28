@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker build -t joakimfristedt/prana .
+  - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
