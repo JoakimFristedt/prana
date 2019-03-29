@@ -1,5 +1,7 @@
 # Docker for Prana
 
+[![Build Status](https://travis-ci.org/JoakimFristedt/prana.svg?branch=master)](https://travis-ci.org/JoakimFristedt/prana)
+
 Simple implementation of a Docker image for [netflix prana](https://github.com/Netflix/Prana). Not all Prana/eureka properties are supported at the moment.
 
 ## Pull
