@@ -47,6 +47,7 @@ services:
     environment:
       - EUREKA_NAME=elasticsearch
       - EUREKA_PORT=9200
+      - EUREKA_VIP_ADDRESS=elasticsearch
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.6.1
